@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-
+<!-- MikePotterResumeApp.02.01-->
 <html>
 <head>
     <title>Mike Potter Resume</title>
     <script>
         function canihelp () {
-            //alert ('made it this far');
+            //this function will figure out how my skillset fits with what the employer/user needs
             var watiwant;
             watiwant = document.getElementById('watiwant').value;
            if  (watiwant == "") {
               alert ('You must want SOMETHING!');
            }
-           else if (watiwant == "writer" || "reporter" || "producer") {
+           else if (watiwant == "writer" || watiwant =="reporter" || watiwant =="producer") {
                 alert ('Mike Potter has a wealth of experience in writing for print, web or broadcast, longform or short.');
             }
             else if (watiwant == "photographer") {
@@ -20,10 +20,10 @@
            else if (watiwant == "editor"){
                 alert ('Mike Potter has experience editing for the web and print, in a variety of styles and structures.');
             }
-           else if (watiwant == "web developer" || "web designer") {
+           else if (watiwant == "web developer" || watiwant =="web designer") {
                 alert ('Mike Potter has a strong foundation in HTML, CSS and Javascript and a degree in design.');
            }
-           else if (watiwant == "designer" || "layout designer" || "graphic designer") {
+           else if (watiwant == "designer" || watiwant == "layout designer" || watiwant =="graphic designer") {
                 alert ('Mike Potter is an experienced designer, with an eye towards dynamic and functional layouts.');
             }
             else {
@@ -31,9 +31,8 @@
            }
             
             }
-            //function test () {
-                //alert ("working button")
-            //}
+            //future builds will not use the aggressively annoying alerts, but rather a text box. 
+            //this build was simply to make sure my if/else chains were functioning properly. 
     </script>
     
 <link rel="stylesheet" type="text/css" href="ProjectOne.css">
